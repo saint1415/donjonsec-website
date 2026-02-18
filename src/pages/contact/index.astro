@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Contact"
+  description="Contact DonjonSec for general inquiries, licensing, legal matters, bug reports, or security vulnerability disclosure."
+>
+  <!-- Hero -->
+  <section class="bg-navy-950 py-16 sm:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          Contact Us
+        </h1>
+        <p class="mx-auto mt-6 max-w-3xl text-lg text-slate-400">
+          Reach us by email for inquiries, licensing, or support. We typically respond within one business day.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Cards -->
+  <section class="bg-navy-900 py-16 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+        <!-- General Inquiries -->
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-8">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-cyan-600/20">
+            <svg class="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-semibold text-white">General Inquiries</h2>
+          <p class="mt-3 text-sm text-slate-400">
+            Product questions, partnership opportunities, or general information about the Donjon Platform.
+          </p>
+          <a
+            href="mailto:info@donjonsec.com"
+            class="mt-4 inline-block text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
+          >
+            info@donjonsec.com
+          </a>
+        </div>
+
+        <!-- Licensing & Sales -->
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-8">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-cyan-600/20">
+            <svg class="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-semibold text-white">Licensing &amp; Pricing</h2>
+          <p class="mt-3 text-sm text-slate-400">
+            Pro, Enterprise, and MSSP licensing inquiries. Custom quotes, volume licensing, and upgrade discussions.
+          </p>
+          <a
+            href="mailto:sales@donjonsec.com"
+            class="mt-4 inline-block text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
+          >
+            sales@donjonsec.com
+          </a>
+        </div>
+
+        <!-- Legal -->
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-8">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-cyan-600/20">
+            <svg class="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-semibold text-white">Legal</h2>
+          <p class="mt-3 text-sm text-slate-400">
+            Legal matters, EULA questions, arbitration opt-out notices (within 30 days of acceptance), and data processing agreements.
+          </p>
+          <a
+            href="mailto:legal@donjonsec.com"
+            class="mt-4 inline-block text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
+          >
+            legal@donjonsec.com
+          </a>
+        </div>
+
+        <!-- Bug Reports -->
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-8">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-cyan-600/20">
+            <svg class="h-6 w-6 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-semibold text-white">Bug Reports</h2>
+          <p class="mt-3 text-sm text-slate-400">
+            Found a bug? Please report it through GitHub Issues. Include your platform version, operating system, and steps to reproduce.
+          </p>
+          <a
+            href="https://github.com/saint1415/donjon-platform/issues"
+            class="mt-4 inline-block text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Issues
+          </a>
+        </div>
+
+        <!-- Security Vulnerability -->
+        <div class="rounded-lg border border-cyan-600/30 bg-navy-800 p-8 sm:col-span-2">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-cyan-600/20">
+            <svg class="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m0-10.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.75c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.75h-.152c-3.196 0-6.1-1.249-8.25-3.286zm0 13.036h.008v.008H12v-.008z" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-semibold text-white">Security Vulnerability Disclosure</h2>
+          <p class="mt-3 text-sm text-slate-400">
+            If you discover a security vulnerability in the Donjon Platform, please report it responsibly. Do not open a public GitHub issue for security vulnerabilities.
+          </p>
+          <p class="mt-4 text-sm text-slate-300">
+            Email <a href="mailto:info@donjonsec.com?subject=%5BSECURITY%5D%20Vulnerability%20Report" class="text-cyan-400 hover:text-cyan-300 transition-colors font-medium">info@donjonsec.com</a> with <span class="font-mono text-cyan-400">[SECURITY]</span> in the subject line. Include a detailed description of the vulnerability, steps to reproduce, and any proof-of-concept code.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

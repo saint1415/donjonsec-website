@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Download"
+  description="Download the Donjon Platform Community Edition for free. Available for Windows and Linux with Docker support. Python 3.10+, 4GB RAM, 1GB disk required."
+>
+  <!-- Hero -->
+  <section class="bg-navy-950 py-16 sm:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          Download
+        </h1>
+        <p class="mx-auto mt-6 max-w-3xl text-lg text-slate-400">
+          Get started with the Donjon Platform Community Edition. Free forever with 17 scanners, 3 compliance frameworks, and AI-powered analysis.
+        </p>
+        <div class="mt-8">
+          <a
+            href="https://github.com/saint1415/donjon-platform/releases"
+            class="inline-flex items-center rounded-md bg-cyan-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-cyan-500 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="mr-2 h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+            </svg>
+            Download from GitHub Releases
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Start -->
+  <section class="bg-navy-900 py-16 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h2 class="mb-10 text-3xl font-bold text-white">Quick Start</h2>
+
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <!-- Windows -->
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-8">
+          <div class="mb-4 flex items-center gap-3">
+            <svg class="h-8 w-8 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+            </svg>
+            <h3 class="text-xl font-semibold text-white">Windows</h3>
+          </div>
+          <ol class="space-y-3 text-sm text-slate-300">
+            <li class="flex gap-3">
+              <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600/20 text-xs font-bold text-cyan-400">1</span>
+              <span>Download the latest release from GitHub</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600/20 text-xs font-bold text-cyan-400">2</span>
+              <span>Extract to your preferred directory</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600/20 text-xs font-bold text-cyan-400">3</span>
+              <span>Run the launcher:</span>
+            </li>
+          </ol>
+          <div class="mt-4 rounded-md bg-navy-950 p-4">
+            <code class="font-mono text-sm text-cyan-400">START.bat</code>
+          </div>
+        </div>
+
+        <!-- Linux -->
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-8">
+          <div class="mb-4 flex items-center gap-3">
+            <svg class="h-8 w-8 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+            <h3 class="text-xl font-semibold text-white">Linux</h3>
+          </div>
+          <ol class="space-y-3 text-sm text-slate-300">
+            <li class="flex gap-3">
+              <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600/20 text-xs font-bold text-cyan-400">1</span>
+              <span>Download the latest release from GitHub</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600/20 text-xs font-bold text-cyan-400">2</span>
+              <span>Extract and run the setup script:</span>
+            </li>
+          </ol>
+          <div class="mt-4 space-y-2 rounded-md bg-navy-950 p-4">
+            <div><code class="font-mono text-sm text-cyan-400">chmod +x setup.sh && ./setup.sh</code></div>
+            <div><code class="font-mono text-sm text-cyan-400">python3 bin/donjon-launcher</code></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Docker -->
+  <section class="bg-navy-950 py-16 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
+        <div>
+          <h2 class="text-3xl font-bold text-white">Docker Deployment</h2>
+          <p class="mt-4 text-slate-400">
+            The fastest way to get the platform running. All dependencies are included in the container image. A single command deploys the full platform with the web interface, API, and database.
+          </p>
+        </div>
+        <div class="mt-8 lg:mt-0">
+          <div class="rounded-md border border-navy-700 bg-navy-900 p-6">
+            <p class="mb-2 text-xs font-medium uppercase tracking-wider text-slate-500">Terminal</p>
+            <code class="font-mono text-sm text-cyan-400">docker compose up -d</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- System Requirements -->
+  <section class="bg-navy-900 py-16 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h2 class="mb-10 text-3xl font-bold text-white">System Requirements</h2>
+
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-6 text-center">
+          <p class="text-sm font-medium uppercase tracking-wider text-slate-500">Runtime</p>
+          <p class="mt-2 text-2xl font-bold text-white">Python 3.10+</p>
+        </div>
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-6 text-center">
+          <p class="text-sm font-medium uppercase tracking-wider text-slate-500">Memory</p>
+          <p class="mt-2 text-2xl font-bold text-white">4 GB RAM</p>
+          <p class="mt-1 text-xs text-slate-500">minimum</p>
+        </div>
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-6 text-center">
+          <p class="text-sm font-medium uppercase tracking-wider text-slate-500">Disk Space</p>
+          <p class="mt-2 text-2xl font-bold text-white">1 GB</p>
+          <p class="mt-1 text-xs text-slate-500">minimum</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EULA Notice -->
+  <section class="bg-navy-950 py-12">
+    <div class="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+      <p class="text-sm text-slate-500">
+        By downloading, you agree to the
+        <a href="/legal/eula/" class="text-cyan-400 underline hover:text-cyan-300 transition-colors">End User License Agreement</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

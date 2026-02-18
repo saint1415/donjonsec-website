@@ -67,19 +67,23 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           <p class="mt-2 text-sm text-slate-400">AD enumeration and security assessment including Kerberoasting, delegation abuse, GPO analysis, and privilege escalation paths.</p>
         </div>
 
-        <div class="rounded-lg border border-navy-700 bg-navy-800 p-6">
-          <h3 class="text-lg font-semibold text-cyan-400">Cloud Scanner -- AWS</h3>
-          <p class="mt-2 text-sm text-slate-400">AWS security posture assessment covering IAM, S3, EC2, RDS, Lambda, and CloudTrail configuration review.</p>
-        </div>
-
-        <div class="rounded-lg border border-navy-700 bg-navy-800 p-6">
-          <h3 class="text-lg font-semibold text-cyan-400">Cloud Scanner -- Azure</h3>
-          <p class="mt-2 text-sm text-slate-400">Azure security assessment including Entra ID, storage accounts, NSGs, Key Vault, and resource group policies.</p>
-        </div>
-
-        <div class="rounded-lg border border-navy-700 bg-navy-800 p-6">
-          <h3 class="text-lg font-semibold text-cyan-400">Cloud Scanner -- GCP</h3>
-          <p class="mt-2 text-sm text-slate-400">Google Cloud security review covering IAM, GCS buckets, Compute Engine, VPC firewall rules, and Cloud KMS.</p>
+        <div class="rounded-lg border border-navy-700 bg-navy-800 p-6 sm:col-span-2 lg:col-span-3">
+          <h3 class="text-lg font-semibold text-cyan-400">Cloud Scanner</h3>
+          <p class="mt-2 text-sm text-slate-400 mb-4">Multi-cloud security posture assessment with native support for all three major providers.</p>
+          <div class="grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <div class="rounded-md bg-navy-900/50 p-3">
+              <p class="text-sm font-medium text-white">AWS</p>
+              <p class="mt-1 text-xs text-slate-500">IAM, S3, EC2, RDS, Lambda, CloudTrail</p>
+            </div>
+            <div class="rounded-md bg-navy-900/50 p-3">
+              <p class="text-sm font-medium text-white">Azure</p>
+              <p class="mt-1 text-xs text-slate-500">Entra ID, Storage, NSGs, Key Vault, Resource Groups</p>
+            </div>
+            <div class="rounded-md bg-navy-900/50 p-3">
+              <p class="text-sm font-medium text-white">GCP</p>
+              <p class="mt-1 text-xs text-slate-500">IAM, GCS, Compute Engine, VPC Firewall, Cloud KMS</p>
+            </div>
+          </div>
         </div>
 
         <div class="rounded-lg border border-navy-700 bg-navy-800 p-6">

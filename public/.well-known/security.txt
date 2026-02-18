@@ -1,0 +1,6 @@
+Contact: mailto:security@donjonsec.com
+Contact: mailto:info@donjonsec.com
+Expires: 2027-02-18T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://donjonsec.com/.well-known/security.txt
+Policy: https://donjonsec.com/legal/privacy/

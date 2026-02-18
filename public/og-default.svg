@@ -1,0 +1,9 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0f1e"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+  <rect x="80" y="200" width="56" height="56" rx="10" fill="#0891b2"/>
+  <text x="152" y="242" font-family="Arial,sans-serif" font-size="40" font-weight="bold" fill="white">Donjon<tspan fill="#22d3ee">Sec</tspan></text>
+  <text x="80" y="320" font-family="Arial,sans-serif" font-size="32" fill="#94a3b8">Enterprise Security Assessment Platform</text>
+  <text x="80" y="380" font-family="Arial,sans-serif" font-size="22" fill="#64748b">17 Scanners  ·  30 Compliance Frameworks  ·  AI-Powered Analysis</text>
+  <text x="80" y="480" font-family="Arial,sans-serif" font-size="18" fill="#475569">donjonsec.com</text>
+</svg>

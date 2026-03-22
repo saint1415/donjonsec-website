@@ -34,6 +34,33 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     </div>
   </section>
 
+  <!-- Pro Trial CTA -->
+  <section class="bg-gradient-to-r from-cyan-900/30 to-navy-900 py-12 sm:py-16 border-y border-cyan-800/30">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl font-bold text-white sm:text-3xl">Start a 14-Day Pro Trial</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-slate-400">
+        Unlock all 17 scanners, 30 compliance frameworks, AI analysis, scheduled scans, and PDF/SARIF export. No credit card required. Activate directly from the platform dashboard.
+      </p>
+      <div class="mt-8 rounded-lg border border-navy-700 bg-navy-800 p-6 inline-block text-left">
+        <p class="text-sm font-medium text-slate-300 mb-3">After installing, activate your trial in one step:</p>
+        <div class="space-y-3">
+          <div class="flex items-start gap-3">
+            <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600/20 text-xs font-bold text-cyan-400">1</span>
+            <span class="text-sm text-slate-300">Open the Donjon Platform dashboard and navigate to the <strong class="text-white">License</strong> tab</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600/20 text-xs font-bold text-cyan-400">2</span>
+            <span class="text-sm text-slate-300">Click <strong class="text-white">Start Free Trial</strong> — Pro features activate instantly</span>
+          </div>
+        </div>
+        <div class="mt-4 rounded-md bg-navy-950 p-3">
+          <p class="text-xs text-slate-500 mb-1">Or activate via CLI:</p>
+          <code class="font-mono text-sm text-cyan-400">curl -X POST http://localhost:9090/api/v1/license/trial</code>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Quick Start -->
   <section class="bg-navy-900 py-16 sm:py-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
